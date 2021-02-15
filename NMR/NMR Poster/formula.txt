@@ -1,0 +1,7 @@
+\boldmath{
+\begin{cases}
+\sigma(A) = \sqrt{\frac{1}{n} \sum_{i=1}^{N} ( {\arg{A_i}-\overline{\arg{A}}} )^2 }; \\
+\zeta(A,\ \gamma,\ \delta) = A_k \cdot e^{2\pi i \gamma F_k + \delta i} \\
+A = \zeta(A,\ \underset{\gamma,\ \delta} {\mathrm{argmin}}\ \sigma{[\zeta(A, \gamma,\ \delta)]}\ )
+\end{cases}
+}
